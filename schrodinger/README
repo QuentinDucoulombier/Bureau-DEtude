@@ -1,0 +1,8 @@
+Bureau d'études 2021-2022
+Correction de la partie Résolution
+Romain DUJOL - CY Tech
+---
+
+'make' génère le fichier de données et l'image de la solution
+'make clean' supprime les produits de la compilation (fichiers '.o')
+'make reset' supprime TOUT (fichiers '.o', exécutable, fichier de donnees, image) sauf les sources

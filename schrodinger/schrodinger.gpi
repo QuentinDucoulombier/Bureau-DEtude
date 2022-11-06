@@ -1,0 +1,16 @@
+reset
+
+set terminal png
+  set output 'schrodinger.png'
+  set datafile missing 'NaN'
+  set title "Équation de SCHRÖDINGER"
+  set xlabel "x (10^{-9} m)"
+  set ylabel "{/Symbol f}(x)" enhanced
+
+  set style data linespoints
+  set grid
+
+
+  
+  plot 'data1.dat' using 1:2 title "{/Symbol f} : E>V_0"
+

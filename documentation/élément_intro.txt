@@ -1,0 +1,30 @@
+
+Copier coller de:
+Les maths en physique - 3e édition: La physique à travers le filtre des mathématiques (avec éléments d'analyse numérique)
+Jean-Pierre Provost, Gérard Vallée
+https://fr.fr1lib.org/book/1129859/d56522
+page 324
+L’étude numérique d’un problème physique se déroule schématiquement en trois étapes.
+La première concerne sa formalisation mathématique ; les dix premiers chapitres de ce
+livre y ont été consacrés, l’accent étant mis sur l’importance des concepts mathématiques.
+La seconde concerne l’élaboration d’un modèle numérique “sensé mimer au mieux” le
+modèle mathématique ; elle relève de l’analyse numérique abordée ici en raison de son
+importance de plus en plus grande en physique. Enfin la dernière concerne la mise en
+œuvre sur l’ordinateur de la méthode précédente; c’est la phase de programmation, située
+hors du champ de cet ouvrage.
+Une fois formalisé, par exemple sous la forme d’une équation différentielle (E.D.), un
+problème physique n’est pas pour autant résolu. Mˆeme si la solution analytique de
+l’équation est connue, le physicien est intéressé non seulement par les valeurs prises par
+cette solution en fonction de la variable, mais aussi en fonction des conditions initiales
+(C.I.) (ou aux limites (C.L.)), des paramètres de l’équation ... Se posent alors de nombreux problèmes numériques, tel que celui du choix, crucial, du pas de discrétisation (de
+la variable, des paramètres ...) qui conditionne la pertinence et la précision d’un calcul,
+ou tel que l’interpolation pour le tracé de graphes.
+Mais très souvent le problème physique n’a pas de solution explicite, par exemple s’il
+conduit è une E.D. linéaire è coefficients variables ou è une E.D. non linéaire. Le recours
+au numérique est alors indispensable ; il implique, pour ces exemples, la discrétisation
+des opérations de dérivation et donc la transformation d’un système dynamique (S.D.)
+continu en un S.D. discret. La vérification que ce dernier constitue une bonne approximation du S.D. continu est un problème important et non trivial, souvent facilité par la
+connaissance préalable (physique et mathématique) des propriétés qualitatives de la solution. Sous réserve de cette vérification la simulation du problème physique permet une
+“expérimentation numérique” y compris dans des domaines de paramètres non accessibles
+è l’expérimentation physique. Inversement, l’étude a priori de modèles numériques peut
+aider è la compréhension et è la formalisation mathématique de problèmes physiques.
