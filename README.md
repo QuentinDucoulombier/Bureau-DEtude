@@ -10,7 +10,14 @@ Email: ducoulombi@cy-tech.fr, furgerachi@cy-tech.fr, thupingone@cy-tech.fr, fauc
 
 ## Présentation
 
-L'objectif est de résoudre l'équation de Schrödinger dans des configurations où ce n'est pas faisable à la main.
+L'objectif de ce projet est de résoudre l'équation de Schrödinger dans des configurations où ce n'est pas faisable à la main.
+  
+![](./documentation/explication/img/equation1.png)
+
+
+
+![](./documentation/explication/img/equation2.png)
+
 Pour cela nous utilisons deux methodes :
 - La methode de rkf45 
 - La methode de powell
